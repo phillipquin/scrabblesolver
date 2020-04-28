@@ -2,6 +2,10 @@
 
 Given a board state in Scrabble, and a set of tiles, generate a list of valid solutions, ranked by score.
 
+The word list is from a text file, which is a tab separated file of words in the Collins Official Scrabble Dictionary (2019).
+A way to check words are valid, for debugging or whatever other reasons:
+https://www.collinsdictionary.com/scrabble/scrabble-word-finder/
+
 ## Usage Examples
 
 The simplest usage is to create the board state, give a set of tiles, and request a list of solutions.
