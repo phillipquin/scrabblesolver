@@ -33,8 +33,8 @@ _board = np.array([
 # Let's get the hand
 _hand = list('TEST')
 
-# Calculate the next move
-_success, _board, _hand, tmp_score = place_word(_board, _hand, False, 5)
+# Calculate the next move: ... = place_word(board state, tiles in hand, whether this is the first move, how many solutions to print)
+_success, _board, _hand, tmp_score = place_word(_board, _hand, False, 5) 
 print_board_state(_board)
 print('Hand after move:', _hand)
 ```
